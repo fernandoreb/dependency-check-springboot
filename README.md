@@ -1,6 +1,6 @@
 # Dependency Check - Exemplo de Uso
 
-Dependency check é um software utilizado para detectar vulnerabilidades públicas nas dependências de um projeto. 
+Dependency check é um software utilizado para detectar vulnerabilidades públicas nas dependências de um projeto. Ele pode perfertamente ser integrado em um pipeline para ajudar nas validações das aplicações, identificando e mitigando o uso de bibliotecas com vulnerabilidades conhecidas.
 
 Para maiores informações, consultar:   
 https://owasp.org/www-project-dependency-check/
@@ -10,7 +10,7 @@ https://owasp.org/www-project-dependency-check/
 Esta aplicação foi construída para exemplicar o uso do dependency check. Algumas bibliotecas foram colocadas propositalmente com uma versão mais antiga, para ilustar o uso da ferramenta.
 
 ## Utilizando o Dependency Check
-O Dependency Check pode ser acionado via maven, bastando adicionar a dependência no pom
+O Dependency Check pode ser acionado via maven, bastando adicionar a dependência no pom. Desta forma, pode-se avaliar em tempo de desenvolvimento.
 
 ~~~
 ...
